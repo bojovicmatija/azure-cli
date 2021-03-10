@@ -3,6 +3,10 @@
 Release History
 ===============
 
+**SQL**
+
+* New cmdlets for managing Server Trust Groups.
+
 2.19.1
 ++++++
 
