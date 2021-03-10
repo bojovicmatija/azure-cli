@@ -18,7 +18,7 @@ except ImportError:
     logger.warn("Wheel is not available, disabling bdist_wheel hook")
     cmdclass = {}
 
-VERSION = "2.19.1"
+VERSION = "2.20.0"
 # If we have source, validate that our version numbers match
 # This should prevent uploading releases with mismatched versions.
 try:
@@ -71,10 +71,10 @@ DEPENDENCIES = [
     'azure-mgmt-botservice~=0.3.0',
     'azure-mgmt-cdn==7.0.0',
     'azure-mgmt-cognitiveservices~=6.3.0',
-    'azure-mgmt-compute~=18.1',
+    'azure-mgmt-compute~=19.0.0',
     'azure-mgmt-consumption~=2.0',
     'azure-mgmt-containerinstance~=1.4',
-    'azure-mgmt-containerregistry==3.0.0rc16',
+    'azure-mgmt-containerregistry==3.0.0rc17',
     'azure-mgmt-cosmosdb~=3.0.0',
     'azure-mgmt-containerservice~=9.4.0',
     'azure-mgmt-databoxedge~=0.2.0',
@@ -101,7 +101,7 @@ DEPENDENCIES = [
     'azure-mgmt-media~=3.0',
     'azure-mgmt-monitor~=2.0.0',
     'azure-mgmt-msi~=0.2',
-    'azure-mgmt-netapp~=0.15.0',
+    'azure-mgmt-netapp~=0.16.0',
     'azure-mgmt-network~=17.1.0',
     'azure-mgmt-policyinsights~=0.5.0',
     'azure-mgmt-privatedns~=0.1.0',
@@ -125,7 +125,7 @@ DEPENDENCIES = [
     'azure-mgmt-trafficmanager~=0.51.0',
     'azure-mgmt-web~=0.48.0',
     'azure-mgmt-synapse~=0.6.0',
-    'azure-multiapi-storage~=0.5.2',
+    'azure-multiapi-storage~=0.6.0',
     'azure-loganalytics~=0.1.0',
     'azure-storage-common~=1.4',
     'azure-synapse-accesscontrol~=0.2.0',
